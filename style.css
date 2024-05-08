@@ -104,7 +104,7 @@ body {
 
 .section-title {
     font-weight: var(--fw-bold);
-    font-size: var(--fs-600);
+    font-size: var(--fs-800);
 }
 
 .button {
@@ -160,9 +160,9 @@ body {
     place-content: center;  
     width: 12rem;
     margin-inline: auto;
-    background: var(--gradient-to-transparent);
+    background: var(--gradient-to-transparent) ;
     aspect-ratio: 1 / 1;
-    border-radius: 50%;
+    border-radius: 100%;
 }
   
 .result-score span {
@@ -174,9 +174,11 @@ body {
 }
   
 .result-rank {
-    color: var(--clr-neutral-100);
-    font-size: var(--fs-700);
+    font-size: var(--fs-800);
     font-weight: var(--fw-bold);
+}
+.p{
+    font-size: 1.5rem;
 }
   
 .summary {
